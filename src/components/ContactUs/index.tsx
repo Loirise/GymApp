@@ -9,7 +9,7 @@ type Props = {
 };
 
 const ContactUs = ({ setSelectedPage }: Props) => {
-  const inputStyle = `mb-5 w-full rounded-lg bg-primary-300 px-5 py-3 placeholder-white`;
+  const inputStyle = `mt-5 w-full rounded-lg bg-primary-300 px-5 py-3 placeholder-white`;
 
   const {
     register,
@@ -145,7 +145,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
               <img
                 src={ContactUsPageGraphic}
                 alt="Contact us page graphic"
-                className="w-full"
+                className="mt-5 w-full"
               />
             </div>
           </motion.div>
